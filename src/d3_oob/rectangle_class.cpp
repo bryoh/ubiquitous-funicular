@@ -5,15 +5,15 @@ private:
   int length;
   int width;
 
-public:
-  Rectangle() : length(0), width(0) {}
-  Rectangle( int l, int w ) : length(l), width(w) {}
-
-  //Destructor
-  ~Rectangle() {
-    std::cout << "Destructor called" << std::endl;
+  void setDimensions( int l, int w ) {
+    length = l;
+    width = w;
   }
 
+public:
+  void initializeRect(int l, int w ) {
+    setDimensions(l, w);
+  }
   int getArea() {
     return length * width;
   }
@@ -22,11 +22,9 @@ public:
 };
 
 int main() {
-  {
-    Rectangle rect(5, 10);
-    std::cout << "Area: " << rect.getArea() << std::endl;
-  } // Destructor is called when rect goes out of scope
-
+  Rectangle rect;
+  rect.initializeRect(5, 10);
+  std::cout << "Area: " << rect.getArea() << std::endl;
 
 
   return 0;
