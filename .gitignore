@@ -58,3 +58,4 @@ build
 src/main
 .cache/clangd/index
 out/Debug
+.idea
