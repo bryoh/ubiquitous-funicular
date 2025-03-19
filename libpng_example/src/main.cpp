@@ -1,4 +1,4 @@
-#include <png.h>
+#include "../lib/libpng_utils.h"
 #include <iostream>
 
 int main() {

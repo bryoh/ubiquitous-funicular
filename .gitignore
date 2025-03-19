@@ -58,3 +58,7 @@ build
 .cache/clangd/index
 out/Debug
 .idea
+src/d7qt1/Day7QtApp/out/Debug
+src/d7qt1/Day7QtApp/.cache/clangd/index
+src/cpp-stl-day8/.cache/clangd/index
+src/cpp-stl-day8/out/Debug
