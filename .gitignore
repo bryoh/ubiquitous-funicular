@@ -57,6 +57,7 @@ compile_commands.json
 build
 .cache/clangd/index
 out/Debug
+Testing/
 .idea
 src/d7qt1/Day7QtApp/out/Debug
 src/d7qt1/Day7QtApp/.cache/clangd/index

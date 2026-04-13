@@ -1,0 +1,10 @@
+build/
+Testing/
+compile_commands.json
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.user
+*.swp
